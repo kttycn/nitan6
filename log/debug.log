@@ -1,0 +1,22 @@
+Event backend in use: epoll
+/adm/kernel/simul_efun.c line 2: Warning: Unknown #pragma, ignored. before the end of line
+No error handler for error: *
+
+driver 配置错误:
+≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈
+『 你现在运行的 MudOS driver 的设置参数并不适合 』
+『 此 Mudlib, 请对 driver 原码内的 'options.h'  』
+『 作如下的调整然后重新编译.                    』
+≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈
+需要: #define AUTO_TRUST_BACKBONE
+≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈
+
+
+program: /adm/kernel/check_config.c, object: /adm/kernel/check_config, file: /adm/kernel/check_config.c:90
+--- trace ---
+'         create' in '/adm/kernel/check_config.c' ('/adm/kernel/check_config') /adm/kernel/check_config.c:90
+arguments were ()
+locals were: "需要: #define AUTO_TRUST_BACKBONE
+",139947466171192
+--- end trace ---
+The simul_efun (/adm/kernel/simul_efun) and master (/adm/kernel/master) objects must be loadable.
